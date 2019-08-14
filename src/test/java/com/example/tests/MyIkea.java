@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class Ikea7 {
+public class MyIkea {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -25,6 +25,11 @@ public class Ikea7 {
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
+  
+  @Test
+  public void test()  {
+    System.out.println ("hi");
+  }
   @Test
   public void testIKEA7() throws Exception {
     driver.get("https://www.ikea.com/");
