@@ -23,7 +23,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <reporting>
+<reporting>
         <plugins>
             <!-- Normally, we take off the dependency report, saves time. -->
             <plugin>
@@ -50,4 +50,6 @@
 
         </plugins>
     </reporting>
+
+
 </project>
